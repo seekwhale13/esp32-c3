@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/CMakeFiles/bootloader
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/CMakeFiles/bootloader.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/CMakeFiles/bootloader-complete.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/date/Project/esp32/esp32-c3/Blink_led/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

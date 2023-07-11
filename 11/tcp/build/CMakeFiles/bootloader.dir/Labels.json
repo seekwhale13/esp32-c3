@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

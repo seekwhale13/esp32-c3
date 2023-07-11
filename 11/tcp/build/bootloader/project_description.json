@@ -1,0 +1,25 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/soft/software/espreif/1/esp-idf/components/bootloader/subproject",
+    "build_dir":          "E:/date/Project/esp32/esp32-c3/11/tcp/build/bootloader",
+    "config_file":        "E:/date/Project/esp32/esp32-c3/11/tcp/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0.2",
+    "target":             "esp32c3",
+    "rev":                "",
+    "min_rev":            "3",
+    "max_rev":            "99",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/soft/software/espreif/1/esp-idf/components/efuse/Kconfig;E:/soft/software/espreif/1/esp-idf/components/esp_common/Kconfig;E:/soft/software/espreif/1/esp-idf/components/esp_hw_support/Kconfig;E:/soft/software/espreif/1/esp-idf/components/esp_system/Kconfig;E:/soft/software/espreif/1/esp-idf/components/freertos/Kconfig;E:/soft/software/espreif/1/esp-idf/components/hal/Kconfig;E:/soft/software/espreif/1/esp-idf/components/log/Kconfig;E:/soft/software/espreif/1/esp-idf/components/newlib/Kconfig;E:/soft/software/espreif/1/esp-idf/components/soc/Kconfig;E:/soft/software/espreif/1/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/soft/software/espreif/1/esp-idf/components/bootloader/Kconfig.projbuild;E:/soft/software/espreif/1/esp-idf/components/esp_app_format/Kconfig.projbuild;E:/soft/software/espreif/1/esp-idf/components/esp_rom/Kconfig.projbuild;E:/soft/software/espreif/1/esp-idf/components/esptool_py/Kconfig.projbuild;E:/soft/software/espreif/1/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "E:/soft/software/espreif/1/esp-idf/components/bootloader", "E:/soft/software/espreif/1/esp-idf/components/bootloader_support", "E:/soft/software/espreif/1/esp-idf/components/efuse", "E:/soft/software/espreif/1/esp-idf/components/esp_app_format", "E:/soft/software/espreif/1/esp-idf/components/esp_common", "E:/soft/software/espreif/1/esp-idf/components/esp_hw_support", "E:/soft/software/espreif/1/esp-idf/components/esp_rom", "E:/soft/software/espreif/1/esp-idf/components/esp_system", "E:/soft/software/espreif/1/esp-idf/components/esptool_py", "E:/soft/software/espreif/1/esp-idf/components/freertos", "E:/soft/software/espreif/1/esp-idf/components/hal", "E:/soft/software/espreif/1/esp-idf/components/log", "E:/soft/software/espreif/1/esp-idf/components/bootloader/subproject/main", "E:/soft/software/espreif/1/esp-idf/components/bootloader/subproject/components/micro-ecc", "E:/soft/software/espreif/1/esp-idf/components/newlib", "E:/soft/software/espreif/1/esp-idf/components/partition_table", "E:/soft/software/espreif/1/esp-idf/components/riscv", "E:/soft/software/espreif/1/esp-idf/components/soc", "E:/soft/software/espreif/1/esp-idf/components/spi_flash", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

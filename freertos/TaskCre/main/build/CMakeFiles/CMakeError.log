@@ -1,0 +1,65 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/date/Project/esp32/esp32-c3/freertos/TaskCre/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/soft/software/espreif/2/tools/ninja/1.10.2/ninja.exe cmTC_b37ca && [1/2] Building C object CMakeFiles/cmTC_b37ca.dir/CMakeCCompilerABI.c.obj
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\bin
+ (in-process)
+ "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\bin\\clang.exe" -cc1 -triple rl78 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -nostdsysteminc -target-cpu RL78_S3 -fno-jump-tables -mllvm -combiner-store-merging -Wvla -fno-aligned-allocation -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209" -dependency-file "CMakeFiles\\cmTC_b37ca.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b37ca.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\include" -internal-isystem "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\include" -fdebug-compilation-dir "E:\\date\\Project\\esp32\\esp32-c3\\freertos\\TaskCre\\main\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -mmirror-source-0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -finput-charset UTF-8 -fexec-charset UTF-8 -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_b37ca.dir/CMakeCCompilerABI.c.obj -x c E:/soft/software/espreif/2/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version LLVM for Renesas RL78 10.0.0.202209 based upon LLVM 10.0.0 default target rl78
+ignoring duplicate directory "E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include
+ E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\lib\clang\LLVM for Renesas RL78 10.0.0.202209\..\..\..\rl78\include
+End of search list.
+[2/2] Linking C executable cmTC_b37ca.exe
+FAILED: cmTC_b37ca.exe 
+cmd.exe /C "cd . && "E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\bin\clang.exe"  -v CMakeFiles/cmTC_b37ca.dir/CMakeCCompilerABI.c.obj -o cmTC_b37ca.exe -Wl,--out-implib,libcmTC_b37ca.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\bin
+ "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\bin\\ld.lld" CMakeFiles/cmTC_b37ca.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_b37ca.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic "-TE:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\rl78.ld" "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crt0.o" "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtbegin-rl78.obj" -lnosys -lc -lm -lclang_rt.builtins-rl78 "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtend-rl78.obj" "E:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crtn.o" "-LE:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal" "-LE:\\soft\\software\\eestudio\\RL78\\LLVM for Renesas RL78 10.0.0.202209\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3" -o cmTC_b37ca.exe -no-threads
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_b37ca.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/date/Project/esp32/esp32-c3/freertos/TaskCre/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/soft/software/espreif/2/tools/ninja/1.10.2/ninja.exe cmTC_cf98b && [1/2] Building C object CMakeFiles/cmTC_cf98b.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_cf98b.exe
+FAILED: cmTC_cf98b.exe 
+cmd.exe /C "cd . && "E:\soft\software\eestudio\RL78\LLVM for Renesas RL78 10.0.0.202209\bin\clang.exe"   CMakeFiles/cmTC_cf98b.dir/testCCompiler.c.obj -o cmTC_cf98b.exe -Wl,--out-implib,libcmTC_cf98b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_cf98b.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: unable to find library -lkernel32
+ld.lld: error: unable to find library -luser32
+ld.lld: error: unable to find library -lgdi32
+ld.lld: error: unable to find library -lwinspool
+ld.lld: error: unable to find library -lshell32
+ld.lld: error: unable to find library -lole32
+ld.lld: error: unable to find library -loleaut32
+ld.lld: error: unable to find library -luuid
+ld.lld: error: unable to find library -lcomdlg32
+ld.lld: error: unable to find library -ladvapi32
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
